@@ -1,0 +1,17 @@
+$body-bg: #ecf0f1;
+$navbar-default-bg: #f1c40f;
+$navbar-default-link-color: #34495e;
+$navbar-height: 60px;
+$brand-primary: #f1c40f;
+$jumbotron-bg: #bdc3c7;
+
+@import 'bootstrap-sprockets';
+@import "bootstrap";
+
+.zentriert {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
