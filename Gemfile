@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.4'
+ruby '2.1.2'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -23,7 +23,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem "bootstrap-sass"
- 
+
+gem "devise", '~> 4.0.0.rc1'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
@@ -31,5 +33,5 @@ end
 
 group :production do
 	gem "pg"
-	gem "rails_12factor "
+	gem "rails_12factor"
 end
